@@ -1,4 +1,4 @@
-package com.course.masterclass12.storybook
+package com.course.masterclass12.storybook.kotlin_fundamental
 
 /**
  * Variables and difference between val and var
@@ -7,13 +7,13 @@ package com.course.masterclass12.storybook
 fun main () {
     val name = "Lukman"                                 // this is variable type String -- Is Alphabet
     val age = 23                                        // this is variable type Int -- Familiar with number
-    val weight = 50.3F                                  // this is variable type float -- Familiar with dot and F
-    val height = 165.3                                  // this is variable type double -- Familiar with dot
-    val blood = 'O'                                     // this is variable type Char -- Only one Character
+    //val weight = 50.3F                                  // this is variable type float -- Familiar with dot and F
+    //val height = 165.3                                  // this is variable type double -- Familiar with dot
+    //val blood = 'O'                                     // this is variable type Char -- Only one Character
 
-    val fileByte: Byte = 13                             // this is primitive variable Type Byte with 8 Bit Signed Integer
-    val exampleShortType: Short = 125                   // this is primitive variable Type Short with 16 Bit Signed Integer
-    val exampleLongType: Long = 367_406_220_798_000_4   // this is variable Long for Epoch, CreditCard Digit, etc...
+    //val fileByte: Byte = 13                             // this is primitive variable Type Byte with 8 Bit Signed Integer
+    //val exampleShortType: Short = 125                   // this is primitive variable Type Short with 16 Bit Signed Integer
+    //val exampleLongType: Long = 367_406_220_798_000_4   // this is variable Long for Epoch, CreditCard Digit, etc...
 
     /**
      * Learning of DataType Boolean(true/false)

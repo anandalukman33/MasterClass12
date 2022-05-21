@@ -1,4 +1,4 @@
-package com.course.masterclass12.storybook
+package com.course.masterclass12.storybook.kotlin_fundamental
 
 /**
  * Arithmetic Operators and why the type is important

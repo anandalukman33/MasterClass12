@@ -1,4 +1,4 @@
-package com.course.masterclass12.storybook
+package com.course.masterclass12.storybook.kotlin_fundamental
 
 /**
  * Nullables - Elvis Operator - Not Null Assertions
@@ -14,7 +14,7 @@ fun main() {
 /**
  * Jadi tanda !! atau not null assertions maksudnya adalah
  * pada variabel tersebut dapat dipastikan 100% tidak akan null!
- * kalau masih ada kemungkinan null maka berikan ? atau berikan kondisi if ( varibel != null) { isi jika ada isi } else { isi kalau null }
+ * kalau masih ada kemungkinan null maka berikan ? atau berikan kondisi if ( variabel != null) { isi jika ada isi } else { isi kalau null }
  */
 fun getName(name: String?, age: Int?) {
     if (name!!.isNotEmpty()) {
